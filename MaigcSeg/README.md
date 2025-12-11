@@ -8,7 +8,7 @@
 
    
 
-2. **Generation Code**: Pipeline for text, image, and mask generation(base on [grounded sam]: https://github.com/IDEA-Research/Grounded-Segment-Anything)
+2. **Generation Code**: Pipeline for text, image, and mask generation(base on [grounded sam])
 
 ## Project Structure
 
@@ -76,19 +76,13 @@ python generate_images.py
 
 **File**: `generate/mask_generate.py`
 
-ref to  
-
-[grounded sam]: https://github.com/IDEA-Research/Grounded-Segment-Anything
+ref to  [grounded sam]
 
 
 
 ## Requirements
 
-ref to 
-
-[ZegCLIP]: https://github.com/ZiqinZhou66/ZegCLIP
-
-
+ref to  [ZegCLIP]
 
 
 
