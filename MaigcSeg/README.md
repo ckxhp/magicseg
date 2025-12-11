@@ -8,7 +8,7 @@
 
    
 
-2. **Generation Code**: Pipeline for text, image, and mask generation(base on [grounded]: https://github.com/IDEA-Research/Grounded-Segment-Anything)
+2. **Generation Code**: Pipeline for text, image, and mask generation(base on [grounded sam]: https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 ## Project Structure
 
