@@ -4,7 +4,7 @@
 
 
 
-1. **Training Code**: Based on  [ZegCLIP]: https://github.com/ZiqinZhou66/ZegCLIP
+1. **Training Code**: Based on  [ZegCLIP]
 
    
 
