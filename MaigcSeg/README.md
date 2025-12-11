@@ -4,17 +4,11 @@
 
 
 
-1. **Training Code**: Based on 
-
-   [ZegCLIP]: https://github.com/ZiqinZhou66/ZegCLIP
+1. **Training Code**: Based on  [ZegCLIP]: https://github.com/ZiqinZhou66/ZegCLIP
 
    
 
-2. **Generation Code**: Pipeline for text, image, and mask generation(base on 
-
-   [grounded]: https://github.com/IDEA-Research/Grounded-Segment-Anything
-
-   )
+2. **Generation Code**: Pipeline for text, image, and mask generation(base on [grounded]: https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 ## Project Structure
 
