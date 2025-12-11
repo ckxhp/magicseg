@@ -4,11 +4,11 @@
 
 
 
-1. **Training Code**: Based on  [ZegCLIP]
+1. **Training Code**: Based on [Zegclip](https://github.com/ZiqinZhou66/ZegCLIP )
 
    
 
-2. **Generation Code**: Pipeline for text, image, and mask generation(base on [grounded sam])
+2. **Generation Code**: Pipeline for text, image, and mask generation(base on [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything))
 
 ## Project Structure
 
@@ -33,6 +33,7 @@ MaigcSeg/
 The training framework has been enhanced with the following features:
 
 #### 1. Dynamic Text Feature Construction
+
 - **File**: `models/segmentor/zegclip.py`
 - **Function**: `forward_train()` method
 - **Features**:
@@ -42,6 +43,7 @@ The training framework has been enhanced with the following features:
 
 
 #### 2. Contrastive Loss
+
 - **File**: `models/decode_heads/decode_seg.py`
 - **Function**: Added cosine similarity loss
 - **Formula**: `max(0, cos(cls_token, cls_token_neg))`
@@ -76,13 +78,13 @@ python generate_images.py
 
 **File**: `generate/mask_generate.py`
 
-ref to  [grounded sam]
+ref to   [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 
 
 ## Requirements
 
-ref to  [ZegCLIP]
+ref to [Zegclip](https://github.com/ZiqinZhou66/ZegCLIP )
 
 
 
@@ -94,4 +96,4 @@ If you use MagicSeg in your research, please cite:
 
 ## License
 
-This project is built upon ZegCLIP, Grounged-Segment-Anything and follows the same license terms. Please refer to the original ZegCLIP repository for licensing information.
+This project is built upon ZegCLIP, Grounged-Segment-Anything. Please refer to the original repository for licensing information.
