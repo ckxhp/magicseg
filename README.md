@@ -1,34 +1,27 @@
 # MagicSeg
-
 ## Examples
 
 ### Sample Results
 
-![show](MagicSeg/example/show.jpg)
+![show](./example/show.jpg)
 
-Each row shows the original image, negative image, and corresponding mask:
+Each row shows the original image, counterfactual image, and corresponding mask:
 
-| Original Image | Negative Image | Mask |
+| Original Image | Counterfactual Image | Mask |
 |----------------|----------------|------|
-| ![img1](MagicSeg/example/images/img1.jpg) | ![img1-neg](MagicSeg/example/images_neg/img1-neg.jpg) | ![img1-mask](MagicSeg/example/masks/img1.png) |
-| ![img2](MagicSeg/example/images/img2.jpg) | ![img2-neg](MagicSeg/example/images_neg/img2-neg.jpg) | ![img2-mask](MagicSeg/example/masks/img2.png) |
-| ![img3](MagicSeg/example/images/img3.jpg) | ![img3-neg](MagicSeg/example/images_neg/img3-neg.jpg) | ![img3-mask](MagicSeg/example/masks/img3.png) |
-| ![img4](MagicSeg/example/images/img4.jpg) | ![img4-neg](MagicSeg/example/images_neg/img4-neg.jpg) | ![img4-mask](MagicSeg/example/masks/img4.png) |
-
+| ![img1](./example/images/img1.jpg) | ![img1-neg](./example/images_neg/img1-neg.jpg) | ![img1-mask](./example/masks/img1.png) |
+| ![img2](./example/images/img2.jpg) | ![img2-neg](./example/images_neg/img2-neg.jpg) | ![img2-mask](./example/masks/img2.png) |
+| ![img3](./example/images/img3.jpg) | ![img3-neg](./example/images_neg/img3-neg.jpg) | ![img3-mask](./example/masks/img3.png) |
+| ![img4](./example/images/img4.jpg) | ![img4-neg](./example/images_neg/img4-neg.jpg) | ![img4-mask](./example/masks/img4.png) |
 ## Overview
 
 
-1. **Training Code**: Based on 
 
-   [ZegCLIP]: https://github.com/ZiqinZhou66/ZegCLIP
+1. **Training Code**: Based on [Zegclip](https://github.com/ZiqinZhou66/ZegCLIP )
 
    
 
-2. **Generation Code**: Pipeline for text, image, and mask generation(base on 
-
-   [grounded]: https://github.com/IDEA-Research/Grounded-Segment-Anything
-
-   )
+2. **Generation Code**: Pipeline for text, image, and mask generation(base on [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything))
 
 ## Project Structure
 
@@ -53,6 +46,7 @@ MaigcSeg/
 The training framework has been enhanced with the following features:
 
 #### 1. Dynamic Text Feature Construction
+
 - **File**: `models/segmentor/zegclip.py`
 - **Function**: `forward_train()` method
 - **Features**:
@@ -62,6 +56,7 @@ The training framework has been enhanced with the following features:
 
 
 #### 2. Contrastive Loss
+
 - **File**: `models/decode_heads/decode_seg.py`
 - **Function**: Added cosine similarity loss
 - **Formula**: `max(0, cos(cls_token, cls_token_neg))`
@@ -96,19 +91,13 @@ python generate_images.py
 
 **File**: `generate/mask_generate.py`
 
-ref to  
-
-[grounded sam]: https://github.com/IDEA-Research/Grounded-Segment-Anything
+ref to   [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 
 
 ## Requirements
 
-ref to 
-
-[ZegCLIP]: https://github.com/ZiqinZhou66/ZegCLIP
-
-
+ref to [Zegclip](https://github.com/ZiqinZhou66/ZegCLIP )
 
 
 
@@ -120,4 +109,4 @@ If you use MagicSeg in your research, please cite:
 
 ## License
 
-This project is built upon ZegCLIP, Grounged-Segment-Anything and follows the same license terms. Please refer to the original ZegCLIP repository for licensing information.
+This project is built upon ZegCLIP, Grounged-Segment-Anything. Please refer to the original repository for licensing information.
