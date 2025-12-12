@@ -1,5 +1,18 @@
 # MagicSeg
+## Examples
 
+### Sample Results
+
+![show](./example/show.jpg)
+
+Each row shows the original image, negative image, and corresponding mask:
+
+| Original Image | Negative Image | Mask |
+|----------------|----------------|------|
+| ![img1](./example/images/img1.jpg) | ![img1-neg](./example/images_neg/img1-neg.jpg) | ![img1-mask](./example/masks/img1.png) |
+| ![img2](./example/images/img2.jpg) | ![img2-neg](./example/images_neg/img2-neg.jpg) | ![img2-mask](./example/masks/img2.png) |
+| ![img3](./example/images/img3.jpg) | ![img3-neg](./example/images_neg/img3-neg.jpg) | ![img3-mask](./example/masks/img3.png) |
+| ![img4](./example/images/img4.jpg) | ![img4-neg](./example/images_neg/img4-neg.jpg) | ![img4-mask](./example/masks/img4.png) |
 ## Overview
 
 
