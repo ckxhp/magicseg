@@ -111,7 +111,17 @@ ref to [Zegclip](https://github.com/ZiqinZhou66/ZegCLIP )
 
 If you use MagicSeg in your research, please cite:
 
-
+```
+@misc{cai2026magicsegopenworldsegmentationpretraining,
+      title={MagicSeg: Open-World Segmentation Pretraining via Counterfactural Diffusion-Based Auto-Generation}, 
+      author={Kaixin Cai and Pengzhen Ren and Jianhua Han and Yi Zhu and Hang Xu and Jianzhuang Liu and Xiaodan Liang},
+      year={2026},
+      eprint={2603.19575},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.19575}, 
+}
+```
 
 ## License
 
