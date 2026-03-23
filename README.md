@@ -1,4 +1,10 @@
-# MagicSeg
+# MagicSeg: Open-World Segmentation Pretraining via Counterfactural Diffusion-Based Auto-Generation
+
+## 💥Updates
+
+- **2026-03**: Our MagicSeg has been officially accepted by T-PAMI 2026 🎉🎉🎉.
+- **2026-01**: We have released the code of MagicSeg 🤗.
+
 ## Examples
 
 ### Sample Results
