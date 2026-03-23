@@ -5,7 +5,7 @@ Kaixin Cai*, Pengzhen Ren*, Jianhua Han, Yi Zhu, Hang Xu, Jianzhuang Liu, Xiaoda
 
 <sup>* </sup>equal contribution.   <sup>:email:</sup> corresponding author.
 
-[[`Paper`](https://arxiv.org/abs/2603.19575).]
+[[`arxiv`](https://arxiv.org/abs/2603.19575).]
 
 </div>
 
