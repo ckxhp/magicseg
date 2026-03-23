@@ -1,5 +1,5 @@
 <div align="center">
-<h1>MagicSeg: Open-World Segmentation Pretraining via Counterfactural Diffusion-Based Auto-Generation</h1>h1>
+<h1>MagicSeg: Open-World Segmentation Pretraining via Counterfactural Diffusion-Based Auto-Generation</h1>
 
 Kaixin Cai*, Pengzhen Ren*, Jianhua Han, Yi Zhu, Hang Xu, Jianzhuang Liu, Xiaodan Liang<sup>:email:</sup>
 
@@ -8,6 +8,7 @@ Kaixin Cai*, Pengzhen Ren*, Jianhua Han, Yi Zhu, Hang Xu, Jianzhuang Liu, Xiaoda
 [[`Paper`](https://arxiv.org/abs/2603.19575).]
 
 </div>
+
 ## 💥Updates
 
 - **2026-03**: Our MagicSeg has been officially accepted by TPAMI 2026 🎉🎉🎉.
